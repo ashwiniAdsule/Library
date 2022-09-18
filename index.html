@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Library</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="left" class="left"></div>
+        <div id="right" class="right">
+            <div class="buttonContainer">
+                <button class="button button1" type="button" onclick="changeBodyBg( '#e77170'); "></button>
+                <button class="button button2" type="button" onclick="changeBodyBg( '#c2cad0'); "></button>
+                <button class="button button3" type="button" onclick="changeBodyBg( '#c2b9b0'); "></button>
+                <button class="button button4" type="button" onclick="changeBodyBg( '#7e685a'); "></button>
+                <button class="button button5" type="button" onclick="changeBodyBg( '#afd275'); "></button>
+            </div>
+        </div>
+        <div id="center">
+            <h1>My Library</h1>
+        </div>
+    </div>
+
+
+    <div class="flex-container">
+
+        <div class="block1" class="flex-child magenta">
+            <h2>Book Name</h2>
+            <p onclick="myFunction1()" id="name1">Atomic Habit</p>
+            <p onclick="myFunction2()" id="name2">Rich Dad Poor Dad</p>
+            <p onclick="myFunction3()" id="name3">The Power of Subconscious Mind</p>
+            <p onclick="myFunction4()" id="name4">The Sublet Art of not Giving Fuck</p>
+            <p onclick="myFunction5()" id="name5">The Psychology Of Money Book</p>
+            <p onclick="myFunction6()" id="name6">21 Lessons For 21<sup>th</sup> Century</p>
+            <p onclick="myFunction7()" id="name7">Your Next Five Moves</p>
+            <p onclick="myFunction8()" id="name8">How to Win Every Argument</p>
+            <p onclick="myFunction9()" id="name9">Attituid is Everything</p>
+            <p onclick="myFunction10()" id="name10">13 Things Mentally Strong People Don't Do</p>
+        </div>
+
+        <div class="block2" class="flex-child green">
+            <h2>Cover</h2>
+            <div><img id="changeImage" src="https://images-na.ssl-images-amazon.com/images/I/91-EIJiYneL.jpg" alt=""></div>
+        </div>
+
+    </div>
+
+
+</body>
+<script src="script.js "></script>
+
+</html>

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+* {
+    font-family: 'Neonderthaw', cursive;
+}
+
+#container {
+    width: 100%;
+    text-align: center;
+}
+
+#left {
+    float: left;
+    width: 15%;
+}
+
+#center {
+    margin: 0 auto;
+    width: 70%;
+}
+
+#right {
+    float: right;
+    width: 15%;
+}
+
+.button {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.button1 {
+    background-color: #e77170;
+}
+
+.button2 {
+    background-color: #c2cad0;
+}
+
+.button3 {
+    background-color: #c2b9b0;
+}
+
+.button4 {
+    background-color: #7e685a;
+}
+
+.button5 {
+    background-color: #afd275;
+}
+
+.block1 {
+    background-color: #f3d250;
+    width: 30%;
+    height: 500px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.block2 {
+    width: 70%;
+    height: 500px;
+    background-color: #ffcc99;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid yellow;
+    text-align: center;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+p {
+    font-weight: 600;
+    color: black;
+}
+
+img {
+    height: 400px;
+    width: 280px;
+}
+
+#name1 {
+    color: red;
+}
