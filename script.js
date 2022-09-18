@@ -38,7 +38,7 @@ function myFunction7() {
 }
 
 function myFunction8() {
-    document.getElementById("changeImage").src = "http://www.freepdfbook.com/wp-content/uploads/2020/07/d51738da77a36e688276df5329cb77d8.png";
+    document.getElementById("changeImage").src = "https://images-na.ssl-images-amazon.com/images/I/418P+P7+nXL._SX321_BO1,204,203,200_.jpg";
     document.getElementById("name8").style.color = "red";
 }
 
